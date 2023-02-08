@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Assistant";
+  src: url("./assets/fonts/assistant.regular.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Assistant", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
